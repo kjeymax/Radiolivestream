@@ -43,7 +43,7 @@ async def start(client, message):
     ],
     [
         InlineKeyboardButton('Youtube Channel', url='https://www.youtube.com/channel/UCwVEAylyVVCOov1AnjBrlGA'),
-        InlineKeyboardButton('SOURCE CODE', url='https://github.com/AsmSafone/RadioPlayerV2'),
+        InlineKeyboardButton('SOURCE CODE', url='https://github.com/kjeymax/Radiolivestream'),
     ],
     [
         InlineKeyboardButton('⚙️ HELP ⚙️', callback_data='help'),
