@@ -1,5 +1,5 @@
 # Telegram Radio Player 
-[https://telegra.ph/file/5abac3914340576bdd5ad.png]
+(https://telegra.ph/file/5abac3914340576bdd5ad.png)
 
 An Telegram Bot to Play Radio/Music in Channel or Group Voice Chats.
 
