@@ -1,9 +1,9 @@
-# Telegram Radio Player V2
+# Telegram Radio Player 
 
 An Telegram Bot to Play Radio/Music in Channel or Group Voice Chats.
 
 This is also the source code of the bot which is being used for playing
-Radio in [AsmSafone](https://t.me/AsmSafone) Channel & Music in [SafoTheBot](https://t.me/safothebot) Group.
+Join Channel : [Channel](https://t.me/lkhitech)
 
 ## Special Features
 
@@ -16,13 +16,13 @@ Radio in [AsmSafone](https://t.me/AsmSafone) Channel & Music in [SafoTheBot](htt
 
 ## Deploy to Heroku (The Easy Way)
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AsmSafone/RadioPlayerV2)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/kjeymax/Radiolivestream)
 
 ## Heroku Vars:
 1. `API_ID` : Get From my.telegram.org
 2. `API_HASH` : Get From my.telegram.org
 3. `BOT_TOKEN` : Get it From @Botfather
-4. `SESSION_STRING` : Generate From [@genStr robot](http://t.me/genStr_robot).
+4. `SESSION_STRING` : Generate From [@StringSessionGen_Bot](http://t.me/StringSessionGen_Bot).
 5. `CHAT` : ID of Channel/Group where the bot plays Music/Radio.
 6. `LOG_GROUP` : Group to send Playlist, if CHAT is a Group.
 7. `ADMINS` : ID of users who can use admin commands.
@@ -42,15 +42,15 @@ Radio in [AsmSafone](https://t.me/AsmSafone) Channel & Music in [SafoTheBot](htt
   [Telegram API key](https://docs.pyrogram.org/intro/quickstart#enjoy-the-api)
   and a Telegram account.
 - [FFmpeg Python](https://www.ffmpeg.org/)
-- Telegram [String Session](http://t.me/genStr_robot) of the account.
+- Telegram [String Session](http://t.me/StringSessionGen_Bot) of the account.
 - Userbot Needs To Be Admin In The Channel or Group.
 - Must Start A Voice Chat In Channel/Group Before Running The Bot.
 
 ## Run On VPS (The Hard Way)
 
 ```sh
-$ git clone https://github.com/AsmSafone/RadioPlayerV2
-$ cd RadioPlayerV2
+$ git clone https://github.com/kjeymax/Radiolivestream
+$ cd Radiolivestream
 $ sudo apt-get install ffmpeg
 $ pip3 install -U pip
 $ pip3 install -U -r requirements.txt
@@ -61,26 +61,8 @@ Edit **config.py** with your own values.
 $ python3 main.py
 ```
 
-## License
-```sh
-RadioPlayerV2, Telegram Voice Chat Userbot
-Copyright (C) 2021  Asm Safone
-
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU Affero General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU Affero General Public License for more details.
-
-You should have received a copy of the GNU Affero General Public License
-along with this program.  If not, see <https://www.gnu.org/licenses/>
-```
 ## Credits
-
+  
 - [Asm Safone](https://github.com/AsmSafone) [Dev]
 - [Dash Eclipse](https://github.com/dashezup) [For tgvc-userbot]
 - [Il'ya](https://github.com/MarshalX) [For tgcalls]
