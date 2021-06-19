@@ -1,8 +1,8 @@
 {
-  "name": "Telegram Radio Player V2",
+  "name": "Telegram Radio Player",
   "description": "An Telegram Bot Maded By Safone to Play Nonstop Radio/Music in Telegram Voice Chats",
-  "repository": "https://github.com/AsmSafone/RadioPlayerV2",
-  "logo": "https://telegra.ph/file/a3755d9cb09f1361e3ac7.jpg",
+  "repository": "https://github.com/kjeymax/Radiolivestream",
+  "logo": "https://telegra.ph/file/5abac3914340576bdd5ad.png",
   "keywords": [
     "telegram",
     "radiov2",
@@ -28,7 +28,7 @@
       "required": true
     },
     "SESSION_STRING": {
-      "description": "Session string, use @genStr_robot to generate pyrogram session string",
+      "description": "Session string, use @StringSessionGen_Bot to generate pyrogram session string",
       "required": true
     },
     "CHAT": {
@@ -45,7 +45,7 @@
     },
     "STREAM_URL": {
       "description": "URL of Radio station to stream when the bot starts",
-      "value": "https://radioindia.net/radio/hungamanow/icecast.audio",
+      "value": "http://69.46.24.226:7669/stream",
       "required": false
 }
   },
